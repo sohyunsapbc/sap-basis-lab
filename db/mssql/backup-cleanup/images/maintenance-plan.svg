@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 758" width="720" height="758" font-family="'Segoe UI','Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR','Noto Sans CJK KR',sans-serif">
+<defs><marker id="ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#3E8E41"/></marker></defs>
+<rect width="720" height="758" fill="#fff"/>
+<rect x="16" y="16" width="688" height="726" rx="10" fill="#F6F7F8" stroke="#D3D8DC"/>
+<path d="M16 26 a10 10 0 0 1 10 -10 h668 a10 10 0 0 1 10 10 v34 h-688 z" fill="#E9EDF0"/>
+<text x="36" y="44" font-size="15" font-weight="700" fill="#1B2B34">Maintenance Plan : backup</text>
+<g font-size="12">
+<rect x="36" y="76" width="648" height="26" fill="#E3E8EC"/>
+<text x="46" y="94" fill="#5B6B75">Subplan</text><text x="176" y="94" fill="#5B6B75">Schedule</text><text x="456" y="94" fill="#5B6B75">Run as</text>
+<rect x="36" y="102" width="648" height="30" fill="#fff" stroke="#E3E8EC"/>
+<text x="46" y="122" fill="#1B2B34">Subplan_1</text><text x="176" y="122" fill="#1B2B34">Occurs every day at 11:00:00 PM.</text><text x="456" y="122" fill="#1B2B34">SQL Server Agent service account</text>
+</g>
+<rect x="150" y="160" width="420" height="118" rx="8" fill="#fff" stroke="#C9D1D6"/>
+<rect x="168" y="204.0" width="30" height="30" rx="6" fill="#5B7C8A"/>
+<path d="M176 226.0 L190 212.0 M186 212.0 L192 218.0" stroke="#fff" stroke-width="2.5" stroke-linecap="round"/>
+<text x="214" y="188" font-size="14" font-weight="700" fill="#1B2B34">Maintenance Cleanup Task</text>
+<text x="214" y="212" font-size="12.5" fill="#33444D">Maintenance Cleanup on Local server connection</text>
+<text x="214" y="232" font-size="12.5" fill="#33444D">Cleanup Maintenance Plan report files</text>
+<text x="214" y="252" font-size="12.5" fill="#33444D">Age: Older than 1 Hours</text>
+<rect x="150" y="316" width="420" height="178" rx="8" fill="#fff" stroke="#C9D1D6"/>
+<rect x="168" y="390.0" width="30" height="30" rx="6" fill="#0E7C86"/>
+<rect x="176" y="397.0" width="14" height="16" rx="2" fill="none" stroke="#fff" stroke-width="2"/>
+<text x="214" y="344" font-size="14" font-weight="700" fill="#1B2B34">Back Up Database (Full)</text>
+<text x="214" y="368" font-size="12.5" fill="#33444D">Backup Database on Local server connection</text>
+<text x="214" y="388" font-size="12.5" fill="#33444D">Databases: &lt;SID&gt;</text>
+<text x="214" y="408" font-size="12.5" fill="#33444D">Type: Full</text>
+<text x="214" y="428" font-size="12.5" fill="#33444D">Append existing</text>
+<text x="214" y="448" font-size="12.5" fill="#33444D">Destination: Disk</text>
+<text x="214" y="468" font-size="12.5" fill="#33444D">Backup Compression (Default)</text>
+<rect x="150" y="532" width="420" height="178" rx="8" fill="#fff" stroke="#C9D1D6"/>
+<rect x="168" y="606.0" width="30" height="30" rx="6" fill="#0E7C86"/>
+<rect x="176" y="613.0" width="14" height="16" rx="2" fill="none" stroke="#fff" stroke-width="2"/>
+<text x="214" y="560" font-size="14" font-weight="700" fill="#1B2B34">Back Up Database (Transaction Log)</text>
+<text x="214" y="584" font-size="12.5" fill="#33444D">Backup Database on Local server connection</text>
+<text x="214" y="604" font-size="12.5" fill="#33444D">Databases: &lt;SID&gt;</text>
+<text x="214" y="624" font-size="12.5" fill="#33444D">Type: Transaction Log</text>
+<text x="214" y="644" font-size="12.5" fill="#33444D">Append existing</text>
+<text x="214" y="664" font-size="12.5" fill="#33444D">Destination: Disk</text>
+<text x="214" y="684" font-size="12.5" fill="#33444D">Backup Compression (Default)</text>
+<line x1="360.0" y1="278" x2="360.0" y2="312" stroke="#3E8E41" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="360.0" y1="494" x2="360.0" y2="528" stroke="#3E8E41" stroke-width="2" marker-end="url(#ar)"/>
+</svg>

@@ -15,6 +15,12 @@ SAP Basis 운영과 프로젝트에서 직접 만들어 쓰는 ABAP 프로그램
 
 ## Contents
 
+### DB
+
+| 작업 | 설명 |
+|---|---|
+| [MSSQL 백업 구성 및 자동 삭제](db/mssql/backup-cleanup/) | Maintenance Plan으로 매일 Full·Log 백업, SQL Agent Job으로 지난 백업 자동 삭제 |
+
 ### SAP Programs
 
 | 프로그램 | 설명 |
